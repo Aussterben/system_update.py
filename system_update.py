@@ -31,7 +31,7 @@ print('''
 time.sleep(0.5)
 eleccion = input(f"\n[+] ¿Quieres actualizar el sistema? [S/n] ")
 
-if eleccion == "S" or eleccion == "s" or eleccion == "Y" or eleccion "y":
+if eleccion == "S" or eleccion == "s" or eleccion == "Y" or eleccion == "y":
     os.system("\nsudo apt update 2>/dev/null && parrot-upgrade 2>/dev/null")
     time.sleep(0.5)
     print(f"\n[+] ¡Sistema actualizado!")
